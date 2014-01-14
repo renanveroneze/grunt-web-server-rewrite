@@ -12,7 +12,7 @@ module.exports = function( grunt ) {
             var async =  this.async();
         }
 
-        server.init( port, base );
+        server( port, base );
 
     });
 
