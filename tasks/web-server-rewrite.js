@@ -8,7 +8,7 @@ module.exports = function( grunt ) {
             port = this.data.port,
             base = this.data.base;
 
-        if(this.data.keeplive) {
+        if(this.data.keepalive) {
             var async =  this.async();
         }
 

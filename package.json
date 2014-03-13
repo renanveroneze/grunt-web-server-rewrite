@@ -2,7 +2,7 @@
     "author": "Renan Veroneze",
     "name": "grunt-web-server-rewrite",
     "description": "Simple Grunt plugin http server with rewrite options",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "keywords": ["grunt", "http", "server", "rewrite", "mod_rewrite", "url"],
     "repository": {
         "type": "git",
@@ -10,6 +10,6 @@
     },
     "readme": "# Grunt Web Server Rewrite\n\n ### Install\n ```bash\nnpm install grunt-web-server-rewrite```\n\n ### Usage example:\n In first step, create a file called `rewrite.json` where is folder root.\n**rewrite.json**\n```js\n\n{\n    \"pages\": {\n        \"/\": \"index.html\"\n    }\n}```\n\n***In Gruntfile.js***\n```js\n'web-server-rewrite': {\n    config: {\n        port: 1234,\n        base: path + 'web_static/',\n        keeplive: false\n    }\n}```\n\n```js\ngrunt.loadNpmTasks('grunt-web-server-rewrite');\n```",
     "dependencies": {
-        "web-server-rewrite": ">=0.2.8"
+        "web-server-rewrite": ">=0.2.9"
     }
 }
