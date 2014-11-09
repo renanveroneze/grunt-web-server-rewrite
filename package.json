@@ -3,7 +3,7 @@
     "name": "grunt-web-server-rewrite",
     "description": "Simple Grunt plugin http server with rewrite options",
     "version": "0.1.1",
-    "keywords": ["grunt", "http", "server", "rewrite", "mod_rewrite", "url"],
+    "keywords": ["grunt", "gruntplugin", "http", "server", "rewrite", "mod_rewrite", "url"],
     "repository": {
         "type": "git",
         "url": "https://github.com/renanveroneze/grunt-web-server-rewrite"
